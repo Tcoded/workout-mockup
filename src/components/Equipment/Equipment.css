@@ -1,0 +1,23 @@
+.equipment_container {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: auto;
+    gap: 30px;
+    margin: 0 auto;
+    max-width: 100vw;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 1280px) {
+    .equipment_container {
+        grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .equipment_container {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+}

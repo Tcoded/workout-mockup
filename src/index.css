@@ -1,0 +1,22 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300italic,300,400italic,600,600italic,700,700italic,800,800italic);
+
+html {
+    font-size: 16px;
+}
+
+@media screen and (min-width: 320px) {
+    html {
+      font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    html {
+      font-size: 22px;
+    }
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
